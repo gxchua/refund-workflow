@@ -1,1 +1,20 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-primary: var(--color-blue-700);
+  --color-primary-strong: var(--color-blue-800);
+  --color-primary-soft: var(--color-blue-50);
+}
+
+@utility focus-ring {
+  &:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-slate-100 text-slate-900 antialiased;
+  }
+}
