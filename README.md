@@ -23,7 +23,7 @@ Requires Node.js 22.12 or later and npm.
 
 ```bash
 npm install
-npm run dev       # start the app at http://localhost:5173
+npm run dev       # start the app at http://localhost:5173/refund-workflow/
 npm test          # run the unit tests once
 npm run lint      # lint with oxlint
 npm run build     # type-check and build to dist/
